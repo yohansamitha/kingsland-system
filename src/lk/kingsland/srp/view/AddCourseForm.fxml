@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.kingsland.srp.controller.AddCourseFormController">
+   <children>
+      <Label layoutX="283.0" layoutY="24.0" text="Course Manager">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtCourseID" labelFloat="true" layoutX="216.0" layoutY="115.0" prefWidth="275.0" promptText="Course ID" />
+      <JFXTextField fx:id="txtCourseName" labelFloat="true" layoutX="216.0" layoutY="165.0" prefWidth="275.0" promptText="Course Name" />
+      <JFXTextField fx:id="txtDuration" labelFloat="true" layoutX="216.0" layoutY="211.0" prefWidth="275.0" promptText="Duration" />
+      <JFXTextField fx:id="txtRegFee" labelFloat="true" layoutX="216.0" layoutY="257.0" prefWidth="275.0" promptText="Registration Fee" />
+      <JFXTextField fx:id="txtIntake" labelFloat="true" layoutX="216.0" layoutY="303.0" prefWidth="275.0" promptText="Intake" />
+      <JFXButton layoutX="491.0" layoutY="395.0" onAction="#btnAddCourse" prefHeight="25.0" prefWidth="54.0" text="Add" />
+   </children>
+</AnchorPane>
