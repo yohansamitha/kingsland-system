@@ -1,5 +1,6 @@
 DROP DATABASE IF EXISTS kingslandStudentManagementSystem;
 CREATE DATABASE IF NOT EXISTS kingslandStudentManagementSystem;
+USE kingslandStudentManagementSystem;
 
 CREATE TABLE student(
 studentID VARCHAR(10) NOT NULL PRIMARY KEY,
