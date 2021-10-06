@@ -23,7 +23,6 @@ public class AppInitializer extends Application {
 //        primaryStage.setResizable(false);
 //        primaryStage.centerOnScreen();
 //        primaryStage.show();
-//        tseasfefsefsd
         primaryStage.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("view/DashBoardForm.fxml"))));
         primaryStage.setTitle("KingsLand");
         primaryStage.centerOnScreen();
